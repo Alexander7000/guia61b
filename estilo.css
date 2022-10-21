@@ -1,0 +1,75 @@
+/* 
+Datos personales
+
+Carnet: HS19011
+Nombre: Edwin Alexander
+Carnet: Hernandez Sanchez
+*/
+
+hs19011 {
+    background-color: blueviolet;
+
+}
+
+p {
+    background-color: chartreuse;
+}
+
+body {
+background-color: brown;
+color: #000;
+}
+
+img {
+    width: 10cm;
+    height: 10cm;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+}
+
+th#price {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+li {
+    color: rgba(255, 250, 101, 0.916);
+}
+
+/*si chequea muestra los productos sin cheque desaparecen los productos*/
+input#c1:checked~table tbody tr.c1 {
+    display: table-row;
+    color: rgb(173, 62, 62);
+}
+
+input#c1:not(checked)~table tbody tr.c1 {
+    display: none;
+    background-color: rgb(112, 112, 206);
+}
+
+input#c2:checked~table tbody tr.c2 {
+    display: table-row;
+}
+
+input#c2:not(checked)~table tbody tr.c2 {
+    display: none;
+}
+
+input#c3:checked~table tbody tr.c3 {
+    display: table-row;
+}
+
+input#c3:not(checked)~table tbody tr.c3 {
+    display: none;
+}
+
+input#c4:checked~table tbody tr.c4 {
+    display: table-row;
+}
+
+input#c4:not(checked)~table tbody tr.c4 {
+    display: none;
+}
